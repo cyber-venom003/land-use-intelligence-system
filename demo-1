@@ -1,0 +1,26 @@
+var dataset = ee.ImageCollection("CSP/HM/GlobalHumanModification").toBands();
+var datamask = (dataset.select('2016_gHM')).unmask(0);
+Map.addLayer(datamask,{},'GHM',false);
+
+////////////// GHM Asset /////////////////////////////
+datamask=datamask.select(['2016_gHM']).rename(['gHM'])
+var World =  Geometry.Polygon(
+          [[[-180, 90],
+          [-180, -90],
+          [180, -90],
+          [180, 90]]], null, false);
+          
+var proj = datamask.projection().nominalScale().getInfo();
+
+var GHM_2240=reprojection(datamask)
+var proj = GHM_2240.projection().nominalScale().getInfo();
+
+Export.image.toAsset({
+  image: GHM_2240, 
+  description: 'utils/GHM_2240',
+  //crs: proj.crs,
+  //crsTransform: transform_new,
+  scale: proj,
+  maxPixels: 1e13,
+  region: World
+  });
