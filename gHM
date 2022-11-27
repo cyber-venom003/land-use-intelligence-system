@@ -42,10 +42,10 @@ var proj = GHM_2240.projection().nominalScale().getInfo();
 ///Exportation
 Export.image.toAsset({
   image: GHM_2240, 
-  description: 'utils/GHM_2240',
+  description: 'GHM_2240',
   //crs: proj.crs,
   //crsTransform: transform_new,
-  assetId: 'users/iec2019002/GHM_2240',
+  // assetId: 'users/iec2019002/GHM_2240',
   scale: proj,
   maxPixels: 1e13,
   region: World

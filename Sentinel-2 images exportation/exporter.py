@@ -48,7 +48,7 @@ ee.Authenticate(auth_mode = 'notebook')
 ee.Initialize()
 print(ARGS)
 ####### Sorting the csv given the purity level ######## 
-#df = csv.reader(open("/Users/yassirben/Desktop/earthengine/exportation/samples/coordinates_Urban_75.csv"), delimiter=",")
+#df = csv.reader(open("/users/iec2019002/Desktop/earthengine/exportation/samples/coordinates_Urban_75.csv"), delimiter=",")
 df = pd.read_csv(csv_localized_path+'/coordinates_'+str(ARGS.LC)+'_Localized.csv', usecols= [0,1,2,3,4,5,6,7,8,9,10], header=None)
 #sortedlist = sorted(df, key=operator.itemgetter(2), reverse=True)
 #print(sortedlist)

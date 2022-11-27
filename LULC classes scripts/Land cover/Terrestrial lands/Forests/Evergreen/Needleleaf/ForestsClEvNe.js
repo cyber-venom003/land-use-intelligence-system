@@ -14,8 +14,8 @@ var task = "Exportation"; //Exportation or Reprojection or Processing
 var purity= 0.80 // 0.00 = 0%    -    1.00 = 100%
 
 //The path where your assets are imported from with this variable
-var consnesus_asset_path="users/ybenhammou/consensus/Forest_CEN"
-var reprojected_asset_path="users/ebenhammou/final/Forest_CEN_overlap_2240m"
+var consnesus_asset_path="users/iec2019002/consensus/Forest_CEN"
+var reprojected_asset_path="users/iec2019002/final/Forest_CEN_overlap_2240m"
 //-----------------------------------------------------------------------
 //-----------------------------------------------------------------------
 //

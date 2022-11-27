@@ -15,8 +15,8 @@ var task = "Exportation"; //Exportation or Reprojection or Processing
 var purity= 0.95 // 0.00 = 0%    -    1.00 = 100%
 
 //The path where your assets are imported from with this variable
-var consnesus_asset_path="users/lareb/consensus/Irrigated_Cereal_Cropland"
-var reprojected_asset_path="users/lareb/reprojected2/Irrigated_Cereal_Cropland_2240m"
+var consnesus_asset_path="users/iec2019002/consensus/Irrigated_Cereal_Cropland"
+var reprojected_asset_path="users/iec2019002/reprojected2/Irrigated_Cereal_Cropland_2240m"
 
 //-----------------------------------------------------------------------
 //
