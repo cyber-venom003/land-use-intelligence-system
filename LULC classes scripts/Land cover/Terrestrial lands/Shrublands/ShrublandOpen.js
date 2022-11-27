@@ -278,7 +278,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Open_Shrubland_50withoutWater, 
-          description: 'consensus/Open_Shrubland_50',
+          description: 'Open_Shrubland_50',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -299,7 +299,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Open_Shrubland_50_2240m',
+          description: 'Open_Shrubland_50_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

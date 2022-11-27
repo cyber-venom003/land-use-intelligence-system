@@ -294,7 +294,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: OENwithoutWater, 
-          description: 'consensus/Forest_OEN',
+          description: 'Forest_OEN',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -315,7 +315,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Forest_OEN_2240m',
+          description: 'Forest_OEN_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

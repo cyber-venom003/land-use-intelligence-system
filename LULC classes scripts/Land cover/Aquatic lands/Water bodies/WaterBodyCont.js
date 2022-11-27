@@ -242,7 +242,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Continental_Water, 
-          description: 'consensus/Continental_Water',
+          description: 'Continental_Water',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -263,7 +263,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Continental_Water_2240m',
+          description: 'Continental_Water_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

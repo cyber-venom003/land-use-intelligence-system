@@ -257,7 +257,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: CDNwithoutWater, 
-          description: 'consensus/Forest_CDN',
+          description: 'Forest_CDN',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -278,7 +278,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Forest_CDN_2240m',
+          description: 'Forest_CDN_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

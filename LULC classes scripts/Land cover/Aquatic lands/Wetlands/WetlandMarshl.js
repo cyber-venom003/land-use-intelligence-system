@@ -228,7 +228,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Marshland_maskedwithoutWater, 
-          description: 'consensus/Marshland_masked',
+          description: 'Marshland_masked',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -250,7 +250,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Marshland_masked_2240m',
+          description: 'Marshland_masked_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

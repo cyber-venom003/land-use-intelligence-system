@@ -260,7 +260,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Swamp_maskedwithoutWater, 
-          description: 'consensus/Swamp_masked',
+          description: 'Swamp_masked',
           //crs: 'EPSG:3857',
           //crsTransform: transform_new,
           scale: proj,
@@ -281,7 +281,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Swamp_masked_2240m',
+          description: 'Swamp_masked_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

@@ -305,7 +305,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: DDNwithoutWater, 
-          description: 'consensus/Forest_DDN',
+          description: 'Forest_DDN',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -326,7 +326,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Forest_DDN_2240m',
+          description: 'Forest_DDN_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

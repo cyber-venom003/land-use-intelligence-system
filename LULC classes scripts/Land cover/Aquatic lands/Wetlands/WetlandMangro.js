@@ -240,7 +240,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Mangrove_maskedwithoutWater, 
-          description: 'consensus/Mangrove_masked',
+          description: 'Mangrove_masked',
           //crs: 'EPSG:3857',
           //crsTransform: transform_new,
           scale: proj,
@@ -261,7 +261,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Mangrove_masked_2240m',
+          description: 'Mangrove_masked_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

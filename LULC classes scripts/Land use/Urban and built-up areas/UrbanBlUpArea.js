@@ -227,7 +227,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: UrbanwithoutWater, 
-          description: 'consensus/Urban',
+          description: 'Urban',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -248,7 +248,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected/Urban_2240m',
+          description: 'Urban_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

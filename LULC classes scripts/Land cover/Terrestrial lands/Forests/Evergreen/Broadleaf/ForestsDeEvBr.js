@@ -301,7 +301,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: DEBwithoutWater, 
-          description: 'consensus/Forest_DEB',
+          description: 'Forest_DEB',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -322,7 +322,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected/Forest_DEB_2240m',
+          description: 'Forest_DEB_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

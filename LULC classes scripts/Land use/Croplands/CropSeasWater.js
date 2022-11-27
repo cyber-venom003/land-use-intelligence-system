@@ -243,7 +243,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Cropland_sw_multiply, 
-          description: 'consensus/Cropland_sw_multiply',
+          description: 'Cropland_sw_multiply',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -264,7 +264,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Cropland_sw_multiply_2240m',
+          description: 'Cropland_sw_multiply_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

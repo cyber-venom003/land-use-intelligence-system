@@ -267,7 +267,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: CDBwithoutWater, 
-          description: 'consensus/Forest_CDB',
+          description: 'Forest_CDB',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -288,7 +288,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Forest_CDB_2240m',
+          description: 'Forest_CDB_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

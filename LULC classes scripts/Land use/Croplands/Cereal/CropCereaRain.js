@@ -243,7 +243,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Rainfed_Cereal_CroplandwithoutWater, 
-          description: 'consensus/Rainfed_Cereal_Cropland',
+          description: 'Rainfed_Cereal_Cropland',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -264,7 +264,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Rainfed_Cereal_Cropland_2240m',
+          description: 'Rainfed_Cereal_Cropland_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

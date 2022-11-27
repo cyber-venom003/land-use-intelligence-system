@@ -281,7 +281,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: BarrenwithoutWater, 
-          description: 'consensus/Barren',
+          description: 'Barren',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -302,7 +302,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Barren_2240m',
+          description: 'Barren_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,

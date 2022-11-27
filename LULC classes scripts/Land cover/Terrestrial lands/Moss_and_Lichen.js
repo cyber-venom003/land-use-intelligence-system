@@ -287,7 +287,7 @@ switch(task) {
           
         Export.image.toAsset({
           image: Moss_and_LichenwithoutWater, 
-          description: 'consensus/Moss_and_Lichen',
+          description: 'Moss_and_Lichen',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
@@ -308,7 +308,7 @@ switch(task) {
           [180, 90]]], null, false);  
         Export.image.toAsset({
           image: reproj_image, 
-          description: 'reprojected2/Moss_and_Lichen_2240m',
+          description: 'Moss_and_Lichen_2240m',
           //crs: proj.crs,
           //crsTransform: transform_new,
           scale: proj,
